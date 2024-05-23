@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 4</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      #top-info {
+        width: 100%;
+        height: 70px;
+        background-color: rgb(255, 0, 0, 0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        letter-spacing: 2px;
+      }
+      #top-info button {
+        margin-left: 15px;
+        padding: 13px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        border-radius: 10px;
+        border: none;
+        background-color: red;
+        color: white;
+      }
+      #nav-bar {
+        height: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+        border-bottom: 2px solid lightgray;
+      }
+      #nav-bar #middle-links {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+      }
+      #middle-links a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+      #buttons {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+      }
+      #buttons button {
+        padding: 20px 15px;
+        letter-spacing: 1px;
+        border-radius: 10px;
+        font-size: 15px;
+      }
+      #buttons #button-one {
+        color: rgb(83, 83, 240);
+        background-color: rgb(196, 225, 243);
+        border: none;
+      }
+      #buttons #button-two {
+        color: red;
+        border: 2px solid red;
+        background-color: white;
+      }
+      #main-content {
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 50px;
+      }
+      #left {
+        max-width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+      }
+      #left #p-one {
+        font-size: 70px;
+        font-weight: bold;
+        text-align: left;
+        color: rgb(83, 83, 240);
+      }
+      #left #p-two {
+        font-weight: bold;
+        font-size: 40px;
+        text-align: left;
+      }
+      #left button {
+        padding: 20px 25px;
+        margin-top: 15px;
+        background-color: red;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 1px;
+      }
+      #right video {
+        border-radius: 50px;
+      }
+      section {
+        height: 200px;
+        background-color: rgb(83, 83, 240);
+        text-align: center;
+        padding: 30px;
+      }
+      section #p-one {
+        font-weight: bold;
+        font-size: 50px;
+        color: white;
+      }
+      section #p-two {
+        font-weight: bold;
+        font-size: 25px;
+        color: white;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="top-info">
+      Applications for our 6th November Batches are now open!
+      <button>APPLY NOW</button>
+    </div>
+    <nav id="nav-bar">
+      <div id="logo">
+        <img src="logo.png" alt="" />
+      </div>
+      <div id="middle-links">
+        <a href="#">COURSES</a>
+        <a href="#">FEES</a>
+        <a href="#">EVENTS</a>
+        <a href="#">LEARN</a>
+        <a href="#" id="success-stories">SUCCES STORIES</a>
+        <a href="#">HIRE FROM US</a>
+      </div>
+      <div id="buttons">
+        <button id="button-one">REFER & EARN</button
+        ><button id="button-two">SIGN UP</button>
+      </div>
+    </nav>
+    <main id="main-content">
+      <div id="left">
+        <p id="p-one">Proof that dreams do come true</p>
+        <p id="p-two">A testament to what's possible</p>
+        <button>APPLY NOW</button>
+      </div>
+      <div id="right">
+        <video controls width="800" height="500px">
+          <source src="https://youtu.be/cWMxCE2HTag?si=FWrGm9Q7ybGY1Y_A" />
+        </video>
+      </div>
+    </main>
+
+    <section>
+      <p id="p-one">How is Masai Creating an Impact?</p>
+      <p id="p-two">4000 students placed across 1000+ companies.</p>
+    </section>
+  </body>
+</html>
